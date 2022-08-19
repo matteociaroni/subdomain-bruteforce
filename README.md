@@ -13,7 +13,7 @@ It bruteforces all possible subdomains based on a dictionary file or generating 
 
 ### Arguments
 #### Word source
-These arguments are mutual exclusive, one is required.
+These arguments are mutually exclusive, one is required.
 They provide a source of words to bruteforce the domain. 
 - `--file` set the file as word source
 - `--generator` generate all combination of letters
