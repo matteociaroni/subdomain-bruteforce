@@ -2,7 +2,7 @@
 Python command-line application to bruteforce subdomains.
 
 This Python module is useful to check the existence of subdomains of a base domain.
-It bruteforces all possible subdomains based on a dictionary file or generating words by letters combinations.
+It bruteforces all possible subdomains using a dictionary file or generating words by letters combinations.
 
 ## Installation and execution
 
@@ -22,4 +22,4 @@ They provide a source of words to bruteforce the domain.
 These arguments are optional.
 - `--from` start bruteforce from this word, skipping all the previous words
 - `--output` the output file to save found subdomains
-- `--thread-limit` the maximum number of parallel threads to run
+- `--thread-limit` the maximum number of parallel threads to run (default is 100)
