@@ -270,5 +270,5 @@ def main():
     controller = Controller(domain, view, words, args["thread_limit"])
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

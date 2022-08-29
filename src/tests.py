@@ -60,5 +60,5 @@ class Tests(unittest.TestCase):
         self.assertEqual({"maps.google.com", "drive.google.com"}, set(controller.model.found_subdomains))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
